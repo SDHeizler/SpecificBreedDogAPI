@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Specific Dog Breed Finder</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Find a Specific Breed of Dog!</h1>
+    </header>
+    <form>
+        <label for="breed">Enter a breed of dog of your choice!</label>
+        <input id="js-breed" type="text" name="breed" placeholder="Enter the breed here" required>
+        <input type="submit" class="button" value="Submit">
+    </form>
+    <div class="imgContainer">
+    </div>
+    <div class="errorDog hidden">
+        <h2>Sorry, Could not find the breed you were looking for.</h2>
+        <img id="sadDog" src="./images/sadpuppies.jpg" alt="sadDog">
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>
